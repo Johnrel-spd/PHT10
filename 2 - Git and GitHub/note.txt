@@ -29,3 +29,11 @@ git branch [branch-name]
 
 - Switch to a new branch
 git switch [branch-name]
+
+=== MERGING === 
+
+- Merge the branch
+git merge [branch-name]
+
+- Delete a branch
+git branch -d [branch-name]
