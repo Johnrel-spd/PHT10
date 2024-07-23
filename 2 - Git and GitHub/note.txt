@@ -37,3 +37,17 @@ git merge [branch-name]
 
 - Delete a branch
 git branch -d [branch-name]
+
+=== Remote Repository Creation === 
+
+- Connect local repository to the remote repository
+git remote add origin [URL]
+
+- Rename the master branch to main
+git branch -M main
+
+- Push the code from the local repository to the remote repository  initially
+git push -u origin main
+
+- Push the code from the local to the remote repository
+git push
