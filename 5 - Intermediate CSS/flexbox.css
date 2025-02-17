@@ -1,0 +1,46 @@
+.flexContainer {
+    /* flex-direction: row - default value */
+    display: flex;
+     /* -direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /*align-items: stretch;
+     align-items: flex-end;
+    align-items: flex-start;
+    align-items: center; */
+
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+}
+
+/* Adjusting one item only 
+.flexItem2 {
+    align-self: flex-start;
+}
+
+Flex Grow = willingness to grow 
+.flexItem3 {
+    flex-grow: 3;
+}
+/* .flexItem2 {
+    flex-grow: 1;
+}
+.flexItem1 {
+    flex-grow: 1;
+}*/
+
+/* Flex Shrink = willingness to shrink */
+.flexItem3 {
+    flex-shrink: 3;
+}
+.flexItem2 {
+    flex-shrink: 1;
+}
+.flexItem1 {
+    flex-shrink: 1;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Creating Forms</h1>
+    <form action = "">
+       <div>
+        <label for="fullname-id">Full Name:</label>
+        <input type="text" name="user-fullname" id="fullname-id" placeholder="John Doe" required>
+      </div>
+      <div>
+        <label for="email-id">Email:</label>
+        <input type="email" name="user-email" id="email-id" placeholder="john.doe@email.com" required>
+      </div> 
+      <div>
+        <label for="password-id">Password:</label>
+        <input type="password" name="user-password" id="password-id" placeholder="********" required>
+      </div>
+      <div>
+        <label for="age-id">Age:</label>
+        <input type="number" name="user-age" id="age-id" placeholder="00" required min="18" max="100">
+      </div>
+      
+      <!-- Radio Buttons, Checkbox, Options -->
+      <div>
+        <label for="gender-id">Gender:</label>
+        <select id="gender-id" name="user-gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="non-conforming">Non-conforming</option>
+        </select>
+      </div>
+      <div>
+        <input type="radio" name="profile" id="private-id" value="private">
+        <label for="private-id">Private</label>
+        <input type="radio" name="profile" id="public-id" value="public">
+        <label for="public-id">Public</label>
+      </div>
+      <div>
+        <input type="checkbox" name="options" id="option1-id" value="option1">
+        <label for="option1-id">Option 1</label>
+        <input type="checkbox" name="options" id="option2-id" value="option2">
+        <label for="option2-id">Option 2</label>
+      </div>
+      <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>

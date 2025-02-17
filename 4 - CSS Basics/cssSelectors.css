@@ -1,0 +1,55 @@
+/* Element selector */
+span {
+    color:blueviolet;
+}
+/* Class Selector */
+.class-name {
+    color: blue;
+}
+/* Id-Selector */
+#id-name {
+    color: orange;
+}
+/* Universal Selector */
+* {
+    font-size: 25px;
+}
+/* Attribute selectors */
+[href] {
+    color: olive;
+}
+a[href="www.sample.com"] {
+    color: yellow;
+}
+/* Grouping selector */
+h1, .parag, h2 {
+    color: chocolate;
+}
+/* Descendant Selector */
+.ancestor h3 {
+    color: yellowgreen;
+}
+.ancestor p {
+    color: turquoise;
+}
+/* Pseudo classes */
+button:hover {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+.pseudo:visited {
+    color: whitesmoke;
+}
+/* Pseudo elements */
+#pseudo-element::after {
+    content: " This is a paragraph after.";
+    color: pink; 
+}
+#pseudo-element::before {
+    content: " This is a paragraph after. ";
+    color: rgb(200, 48, 74); 
+}
+#pseudo-element::first-letter {
+    color: rgb(192, 255, 213); 
+}

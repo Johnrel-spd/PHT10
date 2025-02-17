@@ -1,0 +1,24 @@
+/* Relative Positioning */
+/* Relative to its original porition */
+.relative {
+    background-color: red;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+/* Absolute Positioning */
+.absolute {
+    /* Relative to its parent element */
+    background-color: midnightblue;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+/* Fixed Positioning */
+.fixed {
+    /* Relative to the viewport */
+    background-color: burlywood;
+    position: fixed;
+    bottom: 0;
+}
